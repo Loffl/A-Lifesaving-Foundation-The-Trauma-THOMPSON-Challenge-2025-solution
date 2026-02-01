@@ -1,0 +1,43 @@
+[
+    {
+        "file": "https://grand-challenge.org/media/some-link/video-frame-bounds.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "video-frame-bounds",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "video-frame-bounds.json",
+            "example_value": [
+                {
+                    "stop_frame": 15,
+                    "start_frame": 0
+                },
+                {
+                    "stop_frame": 45,
+                    "start_frame": 16
+                },
+                {
+                    "stop_frame": 75,
+                    "start_frame": 46
+                },
+                {
+                    "stop_frame": 100,
+                    "start_frame": 76
+                }
+            ]
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/life-saving-procedure.mp4",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "life-saving-procedure",
+            "kind": "MP4 file",
+            "super_kind": "File",
+            "relative_path": "life-saving-procedure.mp4",
+            "example_value": null
+        }
+    }
+]

@@ -1,0 +1,26 @@
+# Core ML/AI packages
+transformers==4.48.0
+tokenizers==0.21.0
+einops
+
+# Computer Vision & Media
+opencv-python-headless
+imageio==2.36.1
+imageio[ffmpeg]==2.36.1
+Pillow==10.2.0
+pytorchvideo==0.1.5
+moviepy==2.1.2
+
+# Medical Imaging
+SimpleITK
+
+# Progress & utilities
+tqdm==4.67.1
+dotmap
+pandas
+
+# Ensure numpy compatibility
+numpy<2.0.0
+
+# ActionCLIP
+git+https://github.com/openai/CLIP.git
